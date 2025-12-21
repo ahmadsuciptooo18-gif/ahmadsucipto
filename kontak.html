@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="in">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mse.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <title>Judul halaman</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+            <img src="logoclear.jpg" width="90" height="50">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="produk.html">Produk</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div>
+        <br>
+        <br>
+    </div>
+    
+    
+ <section id="kontak" class="contact">
+        <h2 class="section-title" style="color: white;">Hubungi Kami</h2>
+        <div class="contact-form">
+            <form onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                    <label for="nama">Nama Lengkap</label>
+                    <input type="text" id="nama" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telepon">Nomor Telepon</label>
+                    <input type="tel" id="telepon" required>
+                </div>
+                <div class="form-group">
+                    <label for="pesan">Pesan</label>
+                    <textarea id="pesan" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+ <!-- ====== FOOTER START ====== -->
+<footer style="background-image: url('foto/finishing.jpg');  color:white; padding:60px 20px; font-family:'Poppins', sans-serif;">
+  <div style="max-width:1200px; margin:auto; display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:40px;">
+    
+    <!-- Navigasi -->
+    <div id="contact">
+      <h3 style="font-size:20px; font-weight:700; margin-bottom:20px;"></h3>
+      <ul style="list-style:none; padding:0; line-height:2;">
+        <li><a href="index.html" style="color:white; text-decoration:none;">Beranda</a></li>
+        <li><a href="produk.html" style="color:white; text-decoration:none;">Produk</a></li>
+        <li><a href="tentang.html" style="color:white; text-decoration:none;">Tentang Kami</a></li>
+        <li><a href="kontak.html" style="color:white; text-decoration:none;">Hubungi Kami</a></li>
+      </ul>
+    </div>
+
+    <!-- Produk -->
+    <div>
+      <h3 style="font-size:20px; font-weight:700; margin-bottom:20px;">Produk</h3>
+      <div style="display:grid; grid-template-columns:repeat(2,1fr); column-gap:30px; line-height:2;">
+        <div>
+          <p>Home Lift</p>
+          <p>Passenger Lift</p>
+          <p>Panaromicid Lift</p>
+          <p>Freight Lift</p>
+          <p>Hospital Lift</p>
+        </div>
+        <div>
+          <p>Car Lift</p>
+          <p>Small Machine Room Lift</p>
+          <p>Machine Roomless Lift</p>
+          <p>Dumbwaiter Lift</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Kontak -->
+    <div>
+      <h3 style="font-size:20px; font-weight:700; margin-bottom:20px;">Kontak</h3>
+      <p style="margin:5px 0;">Phone 1 : <a href="tel:+0858 9484 6046" style="color:white; text-decoration:none;">0858 9484 6046</a></p>
+         <p style="margin:5px 0;">Phone 2 : <a href="0852 8345 4561" style="color:white; text-decoration:none;">0852 8345 4561</a></p>
+      <p style="margin:5px 0;">Email : <a href="mailto:metrosolutionelev@gmail.com" style="color:brown; text-decoration:none;">metrosolutionelev@gmail.com | Click Here</a></p>
+      <p style="margin:0px 0;">Office : Perumahan Permata Puri Harmoni2 Blok D3 No.47 Cilengsi</p>
+
+     
+     
+      
+    </div>
+
+    <!-- Follow Us -->
+    <div>
+      <h3 style="font-size:20px; font-weight:700; margin-bottom:20px;">Follow Us</h3>
+      <div style="display:flex; gap:15px; margin-bottom:20px;">
+       <a href="" style="color:white; font-size:20px;"><i class="fab fa-instagram"></i></a>
+           <a href="" style="color:white; font-size:20px;"><i class="fab fa-facebook"></i></a>
+      </div>
+      <div style="display:flex; align-items:center; gap:10px;">
+        <img src="logoclear.jpg" width="50" alt="logo"/>
+        <div>
+          <h4 style="margin:0; font-size:18px; font-weight:700;">Metro Solution Elevator
+          </h4>
+       
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr style="margin:40px 0; border-color:#333;" />
+
+  <p style="text-align:center; font-size:14px; color:#aaa;">
+    mselift.com is part of PT Metro Solution Elevator<br>
+    © All rights reserved mselift.com
+   
+  </p>
+
+
+ 
+</footer>
+<!-- ====== FOOTER END ====== -->
+
+
+
+
+    
+    
+    
+    
+    
+    
+</body>
+</html>
